@@ -155,7 +155,7 @@ main {
 }
 
 .profile-content h1 {
-  font-size: 70px;
+  font-size: 40px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
 }
@@ -453,12 +453,12 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 767px) {
-.profile-content h1 {
-  font-size: 56px;
-}
-.product-section {
-  padding: 20px;
-}
-}
+    .profile-content h1 {
+      font-size: 30px;
+    }
+    .product-section {
+      padding: 20px;
+    }
+  }
 
 
