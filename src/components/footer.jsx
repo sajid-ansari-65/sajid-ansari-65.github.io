@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     borderTop: '1px solid #e0e0e0',
     display: 'flex',
     bottom: 0,
-    position: 'absolute',
+    position: 'static',
     width: '100%',
     padding: '20px 50px'
   }
