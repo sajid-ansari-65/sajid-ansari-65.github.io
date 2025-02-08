@@ -1,0 +1,38 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - Develop # Change this to the branch you want to trigger the deployment
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Configure Git User
+        run: |
+          git config --global user.email "vickymoditech@gmail.com"
+          git config --global user.name "Mohammad Sajid Ansari"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install gh-pages
+        run: npm install -g gh-pages
+
+      - name: Build
+        run: npm run predeploy
+
+      - name: Deploy application
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use GitHub token for authentication
+        run: gh-pages -d build --repo https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vickymoditech/vickymoditech.github.io.git
