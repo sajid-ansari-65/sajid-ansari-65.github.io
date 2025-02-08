@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import "../App.css";
 
-import { Container, Grid2, Stack, Typography } from "@mui/material";
+import { Button, Container, Grid2, Stack, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function About() {
 
@@ -25,8 +26,11 @@ function About() {
                     padding: '10px',
                     color: '#FFFFFF'}} />
               </Stack>
+              <Stack direction={'row'} alignItems={'center'} spacing={1}>
+                <Button variant="contained" color="primary"><Link style={{ textDecoration: 'none', color: 'white'}} to={`/projects`}> My Projects </Link> </Button>
+              </Stack>
               <Stack alignItems={'left'} spacing={1}>
-                <Typography variant="h1" fontSize={40} fontWeight={700}>Mohammad Sajid Ansari</Typography>
+                <Typography variant="h1" fontSize={40} fontWeight={700} >Mohammad Sajid Ansari</Typography>
                 <Typography variant="caption" color="textSecondary" fontWeight={700}>Who am I?</Typography>
                 <Typography variant="body1" color="textSecondary">
                 a Fullstack web developer and pro-efficient WordPress Developer, Started his WordPress Journey around January 2016 after completing my B.Tech(IT) Graduation from a reputed college in Bardoli (CGPIT, Maliba Campus, UTU).
