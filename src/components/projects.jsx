@@ -1,15 +1,10 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import projectsData from "../data/projects.json";
 import "../App.css";
+import { Link } from "react-router-dom";
 
 function Projects() {
-  const navigate = useNavigate();
   window.scroll(0, 0);
-
-  const click = (path) => {
-    navigate(path);
-  };
 
   if (!projectsData) {
     return <div>Project not found.</div>;
@@ -50,13 +45,14 @@ function Projects() {
               </div>
               <div className="button-group">
                 <button
-                  onClick={() => click(`/projectDetail/${project.id}`)}
                   className="learn-more"
                 >
+                  <Link to={`/projectDetail/${project.id}`}>
                   <span className="circle" aria-hidden="true">
                     <span className="icon arrow"></span>
                   </span>
                   <span className="button-text">Read More</span>
+                  </Link>
                 </button>
                 <button
                   className="url-button"

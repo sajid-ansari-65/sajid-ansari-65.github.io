@@ -1,20 +1,12 @@
 import React, { Fragment } from "react";
 import projectsData from "../data/projects.json";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import "../App.css";
-import { Button } from "@mui/material";
+
 import { Link } from "react-router-dom";
 
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-
 function ProjectDetail() {
-  const navigate = useNavigate();
   window.scroll(0, 0);
-
-  const click = (path) => {
-    navigate(path);
-  };
-
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
 
@@ -33,13 +25,12 @@ function ProjectDetail() {
      <div className="product-section">
      <div className="button-group">
         <button
-          onClick={() => click(`/projects`)}
           className="learn-more"
         >
-          <span className="circle" aria-hidden="true">
-              <ArrowBackIcon style={{color:"#fff", display: 'flex', alignItems: 'center', justifyContent: 'center' }} />
-          </span>
-          <span className="button-text">Back</span>
+            <Link to={`/projects`}>
+              <span className="circle" aria-hidden="true"/>
+              <span className="button-text">Back</span>
+            </Link>
         </button>
       </div>
       

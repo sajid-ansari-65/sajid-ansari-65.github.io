@@ -10,8 +10,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home />}>
-          <Route index element={<Projects />} />
+        <Route exact element={<Home />}>
+          <Route index element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projectDetail/:id" element={<ProjectDetail />} />
         </Route>
