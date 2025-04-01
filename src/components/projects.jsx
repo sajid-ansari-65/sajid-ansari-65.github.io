@@ -26,7 +26,9 @@ function Projects() {
               <div className="profile-details">
                 <h3>{project.title}</h3>
                 <h4 style={{ gap: "5px" }}>Role : {project.role}</h4>
-                <h4 style={{ gap: "5px" }}>
+                {
+                  project.companyName && project.companyName !== null && (
+                    <h4 style={{ gap: "5px" }}>
                   Company / Freelance :{" "}
                   <a
                     href={project.companySite}
@@ -41,6 +43,9 @@ function Projects() {
                     src={project.workLogo}
                   />
                 </h4>
+                  )
+                }
+                
                 <p>{project.description}</p>
               </div>
               <div className="button-group">
@@ -54,7 +59,9 @@ function Projects() {
                   <span className="button-text">Read More</span>
                   </Link>
                 </button>
-                <button
+                {
+                  project.link !== null && <>
+                   <button
                   className="url-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -75,7 +82,9 @@ function Projects() {
                     ></path>
                   </svg>
                   <span>URL</span>
-                </button>
+                </button></> 
+                }
+               
               </div>
             </div>
             <div className="w3-animate-bottom product-image">
