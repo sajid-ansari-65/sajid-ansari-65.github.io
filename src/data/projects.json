@@ -407,88 +407,6 @@
   },
   {
     "id": 6,
-    "title": "Dollarsprout - Personal Finance Blog",
-    "logo": "/img/dollarsprout/logo.svg",
-    "description": "DollarSprout is a personal finance blog that provides readers with practical tips, resources, and insights to help them manage their money effectively. The blog covers a wide range of topics, including budgeting, saving, investing, and earning extra income. DollarSprout aims to empower readers to take control of their finances and achieve their financial goals.",
-    "role": "Senior Software Engineer",
-    "data": [
-      {
-        "heading": "Content Creation",
-        "bullets": [
-          "Produce high-quality articles, guides, and resources on personal finance topics.",
-          "Research and write engaging content that educates and inspires readers.",
-          "Collaborate with editors and other team members to develop content strategies and plans."
-        ]
-      },
-      {
-        "heading": "SEO Optimization",
-        "bullets": [
-          "Optimize articles for search engines to increase organic traffic.",
-          "Conduct keyword research and implement SEO best practices.",
-          "Monitor and analyze site performance using tools like Google Analytics."
-        ]
-      },
-      {
-        "heading": "Social Media Management",
-        "bullets": [
-          "Create and schedule social media posts to promote blog content.",
-          "Engage with followers and respond to comments and messages.",
-          "Grow and maintain social media accounts to increase brand visibility."
-        ]
-      },
-      {
-        "heading": "Email Marketing",
-        "bullets": [
-          "Develop email campaigns to nurture leads and drive conversions.",
-          "Segment email lists and personalize content for different audiences.",
-          "Analyze email performance metrics and optimize campaigns for better results."
-        ]
-      },
-      {
-        "heading": "Monetization Strategies",
-        "bullets": [
-          "Implement affiliate marketing programs to generate revenue.",
-          "Create sponsored content and partnerships with brands.",
-          "Explore other monetization opportunities like digital products and courses."
-        ]
-      }
-    ],
-    "technologies": [
-      "WordPress",
-      "JavaScript",
-      "jQery",
-      "jQuery Ajax",
-      "BootStrap",
-      "HTML",
-      "CSS",
-      "SEO",
-      "Google Analytics",
-      "AWS Cloudfront",
-      "AWS S3",
-      "AWS EC2"
-    ],
-    "images": [
-      {
-        "src": "/img/dollarsprout/frontpage.png",
-        "alt": "FrontPage"
-      },
-      {
-        "src": "/img/dollarsprout/podcast.png",
-        "alt": "Podcast"
-      },
-      {
-        "src": "/img/dollarsprout/blog.png",
-        "alt": "Blog"
-      },
-      {
-        "src": "/img/dollarsprout/blog-detail.png",
-        "alt": "Blog-Detail"
-      }
-    ],
-    "link": "https://dollarsprout.com/"
-  },
-  {
-    "id": 8,
     "title": "NEEMIYA : Effective Lead Generation Platform",
     "logo": "/img/neemiya/logo.png",
     "description": "Neemiya is a platform that helps businesses create and manage landing pages to capture leads effectively. It provides tools like drag-and-drop builders, analytics, and CRM integrations, making it easier to optimize marketing campaigns and track performance. The platform is suitable for agencies and businesses aiming to enhance their lead generation and streamline client management.",
@@ -576,121 +494,367 @@
     "link": "https://www.leadsmount.com/"
   },
   {
-    "id": 10,
-    "title": "GLUU : GAuthorize in Real time",
-    "logo": "/img/gluu/logo.png",
-    "description": "Gluu is an open-source Identity and Access Management (IAM) platform offering solutions for secure authentication, authorization, and identity management. It supports OAuth2, OpenID Connect, and SAML protocols, making it ideal for single sign-on (SSO) implementations. Gluu's flexibility allows for deployment in on-premises, cloud, or hybrid environments, and it offers advanced capabilities like adaptive authentication, real-time policy enforcement, and centralized identity orchestration.",
-    "companyName": "Freelance",
-    "companySite": "https://gluu.org/",
-    "workLogo": "/img/capauth/freelance.png",
-    "role": "Software Engineer",
+    "id": 7,
+    "title": "Dollarsprout - Personal Finance Blog",
+    "logo": "/img/dollarsprout/logo.svg",
+    "description": "DollarSprout is a personal finance blog that provides readers with practical tips, resources, and insights to help them manage their money effectively. The blog covers a wide range of topics, including budgeting, saving, investing, and earning extra income. DollarSprout aims to empower readers to take control of their finances and achieve their financial goals.",
+    "role": "Senior Software Engineer",
+    "companyName": "CodeWorks Consulting",
+    "companySite": "https://thisiscodeworks.com/",
+    "workLogo": "/img/codeworks.png",
     "data": [
       {
-        "heading": "Protocol Support",
+        "heading": "Content Creation",
         "bullets": [
-          "Supports OAuth2, OpenID Connect, and SAML for secure authentication and authorization.",
-          "Provides Single Sign-On (SSO) capability across multiple applications."
+          "Produce high-quality articles, guides, and resources on personal finance topics.",
+          "Research and write engaging content that educates and inspires readers.",
+          "Collaborate with editors and other team members to develop content strategies and plans."
         ]
       },
       {
-        "heading": "Scalability",
+        "heading": "SEO Optimization",
         "bullets": [
-          "Handles large-scale enterprise traffic with optimized performance.",
-          "Deployable in cloud, on-premises, or hybrid environments for flexibility."
+          "Optimize articles for search engines to increase organic traffic.",
+          "Conduct keyword research and implement SEO best practices.",
+          "Monitor and analyze site performance using tools like Google Analytics."
         ]
       },
       {
-        "heading": "Security",
+        "heading": "Social Media Management",
         "bullets": [
-          "Enables FIDO2 and passwordless authentication for enhanced security.",
-          "Supports multi-factor authentication (MFA) with adaptive policies."
+          "Create and schedule social media posts to promote blog content.",
+          "Engage with followers and respond to comments and messages.",
+          "Grow and maintain social media accounts to increase brand visibility."
         ]
       },
       {
-        "heading": "Identity Orchestration",
+        "heading": "Email Marketing",
         "bullets": [
-          "Customizable identity flows for complex use cases.",
-          "Real-time policy enforcement with centralized access management."
+          "Develop email campaigns to nurture leads and drive conversions.",
+          "Segment email lists and personalize content for different audiences.",
+          "Analyze email performance metrics and optimize campaigns for better results."
         ]
       },
       {
-        "heading": "Integration",
+        "heading": "Monetization Strategies",
         "bullets": [
-          "Easily integrates with third-party identity providers (e.g., Azure AD, Okta).",
-          "Supports diverse applications and custom plugins for extensibility."
-        ]
-      },
-      {
-        "heading": "User Experience",
-        "bullets": [
-          "Self-service portals for easy user and admin management.",
-          "Automated workflows for user provisioning and de-provisioning."
+          "Implement affiliate marketing programs to generate revenue.",
+          "Create sponsored content and partnerships with brands.",
+          "Explore other monetization opportunities like digital products and courses."
         ]
       }
     ],
     "technologies": [
-      "React",
+      "WordPress",
       "JavaScript",
-      "Java",
-      "Python",
-      "Node.js",
-      "OpenID Connect",
-      "SAML",
-      "OAuth 2.0",
-      "FIDO2/WebAuthn",
-      "Kubernetes",
-      "Docker",
-      "AWS",
-      "Google Cloud",
-      "Azure",
-      "LDAP",
-      "OpenDJ",
-      "OpenLDAP",
-      "MySQL",
-      "PostgreSQL",
-      "Multi-Factor Authentication",
-      "Cryptographic Challenges",
-      "Passwordless Authentication",
-      "Push Notifications"
+      "jQery",
+      "jQuery Ajax",
+      "BootStrap",
+      "HTML",
+      "CSS",
+      "SEO",
+      "Google Analytics",
+      "AWS Cloudfront",
+      "AWS S3",
+      "AWS EC2"
     ],
     "images": [
       {
-        "src": "/img/gluu/img1.png",
-        "alt": "Description of image 3"
+        "src": "/img/dollarsprout/frontpage.png",
+        "alt": "FrontPage"
       },
       {
-        "src": "/img/gluu/img2.png",
-        "alt": "Description of image 3"
+        "src": "/img/dollarsprout/podcast.png",
+        "alt": "Podcast"
       },
       {
-        "src": "/img/gluu/img3.png",
-        "alt": "Description of image 3"
+        "src": "/img/dollarsprout/blog.png",
+        "alt": "Blog"
       },
       {
-        "src": "/img/gluu/img4.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img5.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img6.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img7.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img8.png",
-        "alt": "Description of image 3"
-      },
-      {
-        "src": "/img/gluu/img9.png",
-        "alt": "Description of image 3"
+        "src": "/img/dollarsprout/blog-detail.png",
+        "alt": "Blog-Detail"
       }
     ],
-    "link": "https://gluu.org/"
+    "link": "https://dollarsprout.com/"
+  },
+  {
+    "id": 8,
+    "title": "MuscleBox - Fitness and Nutrition Subscription Service",
+    "logo": "/img/musclebox/logo.webp",
+    "description": "MuscleBox is a subscription service that delivers fitness and nutrition products to customers' doorsteps. The platform offers a range of products, including supplements, workout gear, and healthy snacks, tailored to individual fitness goals. MuscleBox aims to provide convenience and motivation for fitness enthusiasts by curating high-quality products that support their health and wellness journey.",
+    "companyName": "La Net Team Software Solutions Pvt. LTD.",
+    "companySite": "https://www.lanetteam.com/",
+    "workLogo": "/img/logo.webp",
+    "role": "Senior Software Engineer",
+    "data": [
+      {
+        "heading": "Subscription Management",
+        "bullets": [
+          "Allow users to create and manage their subscription plans.",
+          "Provide options for customization based on fitness goals and preferences."
+        ]
+      },
+      {
+        "heading": "Product Curation",
+        "bullets": [
+          "Curate a selection of fitness and nutrition products for each subscription box.",
+          "Ensure high-quality products that align with customer needs."
+        ]
+      },
+      {
+        "heading": "User Engagement",
+        "bullets": [
+          "Implement features to engage users, such as workout challenges and nutrition tips.",
+          "Encourage community interaction through forums or social media integration."
+        ]
+      },
+      {
+        "heading": "Analytics and Reporting",
+        "bullets": [
+          "Provide insights into user behavior, subscription trends, and product performance.",
+          "Utilize data to optimize product offerings and marketing strategies."
+        ]
+      }
+    ],
+    "technologies":[
+      "WordPress",
+      "Flatsome theme",
+      "WooCommerce",
+      "Subscriptions",
+      "JavaScript",
+      "jQery",
+      "jQuery Ajax",
+      "BootStrap",
+      "HTML",
+      "CSS"
+    ],
+    "images": [
+      {
+        "src": "/img/musclebox/frontpage.png",
+        "alt": "FrontPage"
+      },
+      {
+        "src": "/img/musclebox/musclebox.png",
+        "alt": "Mens MuscleBox"
+      },
+      {
+        "src": "/img/musclebox/womenbox.png",
+        "alt": "Women MuscleBox"
+      },
+      {
+        "src": "/img/musclebox/protienbox.png",
+        "alt": "Protien Box"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Digital Workshop Center - Online Learning Platform",
+    "logo": "/img/dwc/logo.png",
+    "description": "Digital Workshop Center is an online learning platform that offers a wide range of courses and training programs in various fields. The platform provides users with access to high-quality educational content, interactive learning experiences, and certification opportunities. Digital Workshop Center aims to empower individuals and organizations by providing them with the skills and knowledge needed to succeed in today's digital landscape.",
+    "companyName": "La Net Team Software Solutions Pvt. LTD.",
+    "companySite": "https://www.lanetteam.com/",
+    "workLogo": "/img/logo.webp",
+    "role": "Software Engineer",
+    "data": [
+      {
+        "heading": "Course Management",
+        "bullets": [
+          "Create and manage a diverse range of online courses.",
+          "Provide course materials, quizzes, and assessments for learners."
+        ]
+      },
+      {
+        "heading": "User Registration and Profiles",
+        "bullets": [
+          "Allow users to register and create personalized profiles.",
+          "Track user progress and achievements within the platform."
+        ]
+      },
+      {
+        "heading": "Payment Processing",
+        "bullets": [
+          "Integrate secure payment gateways for course purchases.",
+          "Manage subscription plans and billing cycles."
+        ]
+      },
+      {
+        "heading": "Community Engagement",
+        "bullets": [
+          "Facilitate discussions, forums, and peer interactions.",
+          "Encourage collaboration among learners through group projects."
+        ]
+      }
+    ],
+    "technologies": [
+      "WordPress",
+      "JavaScript",
+      "jQery",
+      "jQuery Ajax",
+      "BootStrap",
+      "HTML",
+      "CSS",
+      "SEO",
+      "Google Analytics",
+      "AWS Cloudfront",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "images": [
+      {
+        "src": "/img/dwc/frontpage.png",
+        "alt": "FrontPage"
+      },
+      {
+        "src": "/img/dwc/course.png",
+        "alt": "Course"
+      },
+      {
+        "src": "/img/dwc/illustrator.png",
+        "alt": "Illustrator"
+      },
+      {
+        "src": "/img/dwc/inDesign.png",
+        "alt": "InDesign"
+      }
+    ],
+    "link": "https://digitalworkshopcenter.com/"
+  },
+  {
+    "id": 10,
+    "title": "Upfit - Professional Nutritional Plan and Training Program",
+    "logo": "/img/upfit/logo.png",
+    "description": "Upfit is a platform that provides personalized nutritional plans and training programs to help individuals achieve their fitness goals. The platform offers a range of features, including meal planning, workout tracking, and progress monitoring. Upfit aims to empower users by providing them with the tools and resources they need to lead healthier lifestyles.",
+    "companyName": "La Net Team Software Solutions Pvt. LTD.",
+    "companySite": "https://www.lanetteam.com/",
+    "workLogo": "/img/logo.webp",
+    "role": "Software Engineer",
+    "data": [
+      {
+        "heading": "Personalized Plans",
+        "bullets": [
+          "Create customized nutritional plans based on individual goals and preferences.",
+          "Provide training programs tailored to different fitness levels."
+        ]
+      },
+      {
+        "heading": "Progress Tracking",
+        "bullets": [
+          "Allow users to track their progress and achievements.",
+          "Provide insights and analytics to help users stay motivated."
+        ]
+      },
+      {
+        "heading": "Community Support",
+        "bullets": [
+          "Facilitate user interactions through forums and discussion boards.",
+          "Encourage collaboration and support among users."
+        ]
+      }
+    ],
+    "technologies": [
+      "WordPress",
+      "JavaScript",
+      "jQery",
+      "jQuery Ajax",
+      "BootStrap",
+      "HTML",
+      "CSS",
+      "SEO",
+      "Google Analytics",
+      "AWS Cloudfront",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "images": [
+      {
+        "src": "/img/upfit/frontpage.png",
+        "alt": "FrontPage"
+      },
+      {
+        "src": "/img/upfit/mealplan.png",
+        "alt": "Meal Plan"
+      },
+      {
+        "src": "/img/upfit/workout.png",
+        "alt": "Workout"
+      },
+      {
+        "src": "/img/upfit/mealplan2.png",
+        "alt": "Meal Plan 2"
+      },
+      {
+        "src": "/img/upfit/mealplan3.png",
+        "alt": "Meal Plan 3"
+      }
+    ],
+    "link": "https://upfit.de/"
+  },
+  {
+    "id": 11,
+    "title": "Fritz and Rose - Online Store",
+    "logo": "/img/fritzandrose/logo.png",
+    "description": "Fritz and Rose is a brand for jewellery and accessories. We love design, excellent craftsmanship and share the same uncompromising expectation of quality. Everything we do is for the strong, clever and unconventional woman, that shares our sense of quality, design and humour as we do.",
+    "companyName": "La Net Team Software Solutions Pvt. LTD.",
+    "companySite": "https://www.lanetteam.com/",
+    "workLogo": "/img/logo.webp",
+    "role": "Software Engineer",
+    "data": [
+      {
+        "heading": "E-commerce Platform",
+        "bullets": [
+          "Developed an online store using WooCommerce for seamless product management and order processing.",
+          "Implemented a user-friendly interface for easy navigation and shopping experience."
+        ]
+      },
+      {
+        "heading": "Product Management",
+        "bullets": [
+          "Managed product listings, including descriptions, images, and pricing.",
+          "Ensured accurate inventory tracking and order fulfillment."
+        ]
+      },
+      {
+        "heading": "Payment Integration",
+        "bullets": [
+          "Integrated secure payment gateways for smooth transactions.",
+          "Implemented SSL encryption for data security."
+        ]
+      }
+    ],
+    "technologies": [
+      "WordPress",
+      "JavaScript",
+      "jQery",
+      "jQuery Ajax",
+      "BootStrap",
+      "HTML",
+      "CSS",
+      "SEO",
+      "Google Analytics",
+      "AWS Cloudfront",
+      "AWS S3",
+      "AWS EC2"
+    ],
+    "images": [
+      {
+        "src": "/img/fritzandrose/frontpage.png",
+        "alt": "FrontPage"
+      },
+      {
+        "src": "/img/fritzandrose/frontpage2.png",
+        "alt": "FrontPage"
+      },
+      {
+        "src": "/img/fritzandrose/product.png",
+        "alt": "Product"
+      },
+      {
+        "src": "/img/fritzandrose/made-to-order.png",
+        "alt": "Made to Order"
+      }
+    ],
+    "link": "https://fritzandrose.com/"
   }
 ]

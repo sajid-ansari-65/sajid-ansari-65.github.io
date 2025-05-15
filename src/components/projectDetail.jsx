@@ -1,14 +1,15 @@
-import React, { Fragment } from "react";
+// import React from "react";
+import { Fragment } from "react";
 import projectsData from "../data/projects.json";
-import {  useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "../App.css";
-
 import { Link } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 function ProjectDetail() {
-  window.scroll(0, 0);
   const { id } = useParams();
   const project = projectsData.find((proj) => proj.id === parseInt(id));
+  window.scroll(0, 0);
 
   if (!project) {
     return (
@@ -19,10 +20,15 @@ function ProjectDetail() {
     );
   }
 
+  // https://www.npmjs.com/package/react-responsive-carousel
+  var React = require("react");
+  // var ReactDOM = require("react-dom");
+  var Carousel = require("react-responsive-carousel").Carousel;
+
   return (
    <Fragment>
     
-     <div className="product-section">
+    <div className="product-section">
      <div className="button-group">
         <button
           className="learn-more"
@@ -120,15 +126,24 @@ function ProjectDetail() {
           </button>
         </div>
       </section>
-      <div
-        className="product-image"
-        style={{ maxWidth: "unset", maxHeight: "unset", height: "auto" }}
-      >
+
+      <Carousel
+        dragable={true}
+        showArrows={true}
+        showStatus={false}
+        showIndicators={false}
+        infiniteLoop={true}
+        autoPlay={true}
+        interval={3000}
+        transitionTime={1000}
+       >
         {project.images &&
           project.images.map((img, index) => (
-            <img src={img.src} alt="Restaurant Reservation" key={index} />
+            <div key={index} style={{ width: "auto", height: "650px" }}>
+              <img src={img.src} alt="Restaurant Reservation" />
+            </div>
           ))}
-      </div>
+      </Carousel>
     </div>
     </Fragment>
   );

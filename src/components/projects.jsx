@@ -28,7 +28,7 @@ function Projects() {
                 <h4 style={{ gap: "5px" }}>Role : {project.role}</h4>
                 {
                   project.companyName && project.companyName !== null && (
-                    <h4 style={{ gap: "5px" }}>
+                    <h4 style={{ gap: "10px" }}>
                   Company / Freelance :{" "}
                   <a
                     href={project.companySite}

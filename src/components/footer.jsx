@@ -48,13 +48,13 @@ function Footer() {
                 </Typography> 
               </Stack>
               <Stack direction={'row'} justifyContent={'center'} alignItems={'center'} spacing={1}>
-                  <Link color="#e0e0e0" target="_blank" to="https://www.linkedin.com/in/sajidansari0605/" >
+                  <Link color="#e0e0e0" target="_blank" to="https://www.linkedin.com/in/iamsajidansari/" >
                     <LinkedInIcon />
                   </Link>
                   <Link color="#e0e0e0" target="_blank" to="https://github.com/sajid-ansari-65">
                     <GitHubIcon />
                   </Link>
-                  <Link color="#e0e0e0" target="_blank" to="https://x.com/sajidansari0605">
+                  <Link color="#e0e0e0" target="_blank" to="https://x.com/iamsajid_ansari">
                     <XIcon />
                   </Link>
               </Stack>
