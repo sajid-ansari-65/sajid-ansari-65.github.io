@@ -10,7 +10,7 @@ const ProjectsHeader = ({ project }) => {
         <a
             rel="noreferrer"
             target="_blank"
-            href={`https://vickymoditech.github.io/#/projectDetail/${project.id}`}
+            href={`https://sajid-ansari-65.github.io/#/projectDetail/${project.id}`}
           >
             Read More
           </a>

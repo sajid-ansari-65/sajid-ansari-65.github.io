@@ -130,16 +130,14 @@ function ProjectDetail() {
       <Carousel
         dragable={true}
         showArrows={true}
-        showStatus={false}
-        showIndicators={false}
         infiniteLoop={true}
         autoPlay={true}
         interval={3000}
-        transitionTime={1000}
+        transitionTime={2000}
        >
         {project.images &&
           project.images.map((img, index) => (
-            <div key={index} style={{ width: "auto", height: "650px" }}>
+            <div key={index} style={{ width: "auto"}}>
               <img src={img.src} alt="Restaurant Reservation" />
             </div>
           ))}

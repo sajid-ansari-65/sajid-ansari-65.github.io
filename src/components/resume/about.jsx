@@ -1,4 +1,9 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
+
+import HomeIcon from '@mui/icons-material/Home';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 const About = () => {
   return (
@@ -7,65 +12,59 @@ const About = () => {
         <div>
           <h1 class="name">Mohammad Sajid Ansari</h1>
           <p class="title">
-            Senior / Lead Full Stack Developer (WordPress | Node.js | NestJS | React |
+            Senior / Lead Full Stack Developer (WordPress | Node.js | React |
             Next.js | AWS)
           </p>
         </div>
-        <div class="contact-info">
-          <div class="contact-item">
+        <div class="contact-info" style={{ display: "flex", gap: "20px" }}>
+          <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
             <span>
-              <i class="fa-solid fa-phone"></i>
+              <PhoneIcon />
             </span>
             <span>
               <a href="tel:+917984342668">+91 7984342668</a>
             </span>
           </div>
-          <div class="contact-item">
+          <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
             <span>
-              <i class="fa-solid fa-envelope"></i>
+              <EmailIcon />
             </span>
             <span>
-              {" "}
-              <a href="mailto:vickymoditech@gmail.com">
-                vickymoditech@gmail.com
+              <a href="mailto:sajidansari0605@gmail.com">
+                sajidansari0605@gmail.com
               </a>
             </span>
           </div>
-          <div class="contact-item">
+          <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
             <span>
-              <i class="fa-solid fa-link"></i>
-            </span>
-            <span>
-              <a
-                href="https://vickymoditech.github.io"
-                rel="noreferrer"
-                target="_blank"
-              >
-                vickymoditech.github.io
-              </a>
+                <a
+                  href="https://sajid-ansari-65.github.io/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <GitHubIcon />
+                </a>
             </span>
           </div>
         </div>
       </div>
 
       <div class="section">
-        <h2 class="section-header">
-        <i class="fa-solid fa-address-card"></i> &nbsp;
-          About Me</h2>
+        <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+          <HomeIcon/>  About Me
+        </h2>
         <p>
-          I'm a Senior Full Stack Developer with over 9+ years of experience
-          building scalable, high-performance web and mobile applications. I
-          specialize in JavaScript, TypeScript, Node.js (Express/NestJS),
-          React.js, Next.js, and AWS serverless architecture (Lambda, Step
-          Functions, Cognito).
+          I'm a Senior Web Developer near a decade of experience building scalable, high-performance web and mobile applications.
+          I am proficient in a wide range of technologies, including WordPress, Node.js, React, Next.js, and AWS. I have a strong background in both front-end and back-end development, with expertise in JavaScript, TypeScript, HTML, CSS, and various frameworks.
+          I have a solid understanding of software development principles and best practices, including Agile methodologies, version control (Git), and code reviews.
+          <br />          
+          On the back-end, I have worked with Node.js and Express to create RESTful APIs and microservices.
+          I have a strong understanding of database design and management, including SQL and NoSQL databases.
+          I have a strong focus on performance optimization, security, and scalability, ensuring that applications are built to handle high traffic and provide a seamless user experience.
           <br />
-          I'm proficient in designing RESTful APIs, microservices, and working
-          with both relational (MySQL, PostgreSQL) and NoSQL databases (MongoDB,
-          DynamoDB). Passionate about performance optimization, CI/CD
-          integration, real-time socket functionality, and test-driven
-          development.
-          <br />I thrive in fast-paced environments and love delivering secure,
-          scalable, and user-centric applications.
+          I am passionate about writing clean, maintainable code and following best practices in software development.
+          I have a strong understanding of web security principles and best practices, including authentication, authorization, and data protection.
+          I have experience in implementing security measures to protect applications from common vulnerabilities and attacks.
         </p>
       </div>
     </Fragment>

@@ -9,6 +9,9 @@ import skill from "../../data/skills.json";
 import Project from "./project";
 import "./resume.css";
 
+import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
+import WorkIcon from '@mui/icons-material/Work';
+
 const Resume = () => {
   useEffect(() => {
     window.scroll(0, 0);
@@ -40,8 +43,8 @@ const Resume = () => {
         <Page>
           <About />
           <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-briefcase"></i> &nbsp; Work Experience
+            <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+              <WorkIcon/> Work Experience
             </h2>
             {company.slice(0, 1).map((c, index) => (
               <Company company={c} key={index} />
@@ -76,7 +79,7 @@ const Resume = () => {
         <Page>
           <div class="section">
             {/* <h2 class="section-header">Projects</h2> */}
-            <Project projects={[...projects.slice(1, 5)]} />
+            <Project projects={[...projects.slice(1, 4)]} />
           </div>
           <div className="see-more">
             <a
@@ -228,7 +231,6 @@ const Resume = () => {
                   <i class="fa-brands fa-github"></i>
                 </span>
                 <span>
-                  {" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -243,7 +245,6 @@ const Resume = () => {
                   <i class="fa-brands fa-linkedin"></i>
                 </span>
                 <span>
-                  {" "}
                   <a
                     rel="noreferrer"
                     target="_blank"
@@ -258,7 +259,7 @@ const Resume = () => {
         </Page>
       </div>
       <button className="download" onClick={pdfDownload}>
-        <i id="download-btn" className="fa-sharp fa-solid fa-circle-down"></i>
+        <DownloadForOfflineIcon style={{ width:'50px', height: '50px' }} />
       </button>
     </Fragment>
   );
