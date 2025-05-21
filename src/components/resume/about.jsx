@@ -4,6 +4,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const About = () => {
   return (
@@ -42,7 +43,23 @@ const About = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <GitHubIcon />
+                  <span style={{ display: "flex", alignItems: "center", gap: "5px" }}>
+                    <GitHubIcon /> sajid-ansari-65
+                  </span>
+                </a>
+            </span>
+          </div>
+
+          <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
+            <span>
+                <a
+                  href="https://www.linkedin.com/in/iamsajidansari/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span style={{ display: "flex", alignItems: "center", gap: "5px" }}>
+                    <LinkedInIcon /> iamsajidansari
+                  </span>
                 </a>
             </span>
           </div>

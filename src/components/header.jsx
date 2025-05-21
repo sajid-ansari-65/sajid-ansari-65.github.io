@@ -20,7 +20,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
 
-const pages = ['Projects'];
+const pages = ['Projects', "Resume"];
 
 const Header = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

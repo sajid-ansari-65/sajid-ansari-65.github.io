@@ -11,6 +11,17 @@ import "./resume.css";
 
 import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import WorkIcon from '@mui/icons-material/Work';
+import SchoolIcon from '@mui/icons-material/School';
+import CodeIcon from '@mui/icons-material/Code';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import TagIcon from '@mui/icons-material/Tag';
+import CreditCardIcon from '@mui/icons-material/CreditCard';
+import StorageIcon from '@mui/icons-material/Storage';
+import DevicesIcon from '@mui/icons-material/Devices';
+import LaptopIcon from '@mui/icons-material/Laptop';
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Resume = () => {
   useEffect(() => {
@@ -40,6 +51,13 @@ const Resume = () => {
         id="content"
         style={{ display: "flex", flexDirection: "column", gap: "5px" }}
       >
+
+
+        {   
+          /**
+           * About & Work Experience
+           */
+        }
         <Page>
           <About />
           <div class="section">
@@ -51,74 +69,62 @@ const Resume = () => {
             ))}
           </div>
         </Page>
-
         <Page>
           <div class="section">
             {/* <h2 class="section-header">Work Experience</h2> */}
-            {company.slice(1, 3).map((c, index) => (
+            {company.slice(1, 4).map((c, index) => (
               <Company company={c} key={index} />
             ))}
           </div>
         </Page>
 
+        {
+          /**
+           * Projects
+           */
+        }
         <Page>
           <div class="section">
-            {/* <h2 class="section-header">Work Experience</h2> */}
-            {company.slice(3, 4).map((c, index) => (
-              <Company company={c} key={index} />
-            ))}
-          </div>
-          <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-diagram-project"></i> &nbsp; Projects
+            <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+              <AccountTreeIcon/> Projects
             </h2>
-            <Project projects={[...projects.slice(0, 1)]} />
+            <Project projects={[...projects.slice(0, 3)]} />
           </div>
         </Page>
-
         <Page>
           <div class="section">
             {/* <h2 class="section-header">Projects</h2> */}
-            <Project projects={[...projects.slice(1, 4)]} />
+            <Project projects={[...projects.slice(3, 6)]} />
           </div>
           <div className="see-more">
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://vickymoditech.github.io/#/projects"
+              href="https://sajid-ansari-65.github.io/#/projects"
             >
               See More Projects &nbsp; <i class="fa-solid fa-angles-right"></i>
             </a>
           </div>
         </Page>
 
-        {/* <Page>
-          <div class="section">
-            <h2 class="section-header">Projects</h2>
-            <Project projects={[...projects.slice(5, 9)]} />
-          </div>
-        </Page> */}
-
-        {/* <Page>
-          <div class="section">
-            <h2 class="section-header">Projects</h2>
-            <Project projects={[...projects.slice(9, 12)]} />
-          </div>
-        </Page> */}
-
+        {
+          /**
+           * Technical Skills
+           */
+        }
         <Page>
           <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-code"></i> &nbsp; Technical Skills
+            <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+              <CodeIcon/> Technical Skills
             </h2>
 
             <div class="skills-lists">
-              <div className="main_skill">
-                <i class="fa-solid fa-database"></i> &nbsp; Databases&nbsp;{" "}
+              <div className="main_skill" style={{ display: "flex", gap: "5px", alignItems: "center" }}>
+                <StorageIcon/> Databases
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(0, 9).map((s) => (
+                {skill.slice(0, 4).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -128,12 +134,12 @@ const Resume = () => {
             </div>
 
             <div class="skills-lists">
-              <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i> &nbsp; Back-end
+              <div className="main_skill" style={{ display: "flex", gap: "5px", alignItems: "center" }}>
+                <LaptopIcon/> Back-end
                 Development&nbsp; <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(9, 18).map((s) => (
+                {skill.slice(5, 16).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -143,12 +149,12 @@ const Resume = () => {
             </div>
 
             <div class="skills-lists">
-              <div className="main_skill">
-                <i class="fa-solid fa-laptop-code"></i> &nbsp; Front-end
+              <div className="main_skill" style={{ display: "flex", gap: "5px", alignItems: "center" }}>
+                <DevicesIcon/> Front-end
                 Development&nbsp; <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(18, 37).map((s) => (
+                {skill.slice(17, 35).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -158,12 +164,12 @@ const Resume = () => {
             </div>
 
             <div class="skills-lists">
-              <div className="main_skill">
-                <i class="fa-solid fa-credit-card"></i> &nbsp; Payment
+              <div className="main_skill" style={{ display: "flex", gap: "5px", alignItems: "center" }}>
+                <CreditCardIcon/> Payment
                 Integration&nbsp; <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(55, 60).map((s) => (
+                {skill.slice(53, 58).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -176,27 +182,27 @@ const Resume = () => {
 
         <Page>
           <div class="section">
-            <div class="skills-lists">
+            {/* <div class="skills-lists">
               <div className="main_skill">
                 <i class="fa-brands fa-aws"></i> &nbsp; AWS Cloud Services&nbsp;{" "}
                 <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(37, 55).map((s) => (
+                {skill.slice(35, 53).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
                   </span>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div class="skills-lists">
               <div className="main_skill">
                 Extra&nbsp; <div className="line-div"></div>
               </div>
               <div class="skills-list">
-                {skill.slice(60, 100).map((s) => (
+                {skill.slice(58, 100).map((s) => (
                   <span class="skill">
                     <span>{s.name}</span>
                     <span> {s.year} yrs</span>
@@ -207,50 +213,50 @@ const Resume = () => {
           </div>
 
           <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-user-graduate"></i> &nbsp; EDUCATION
+            <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+              <SchoolIcon/>  EDUCATION
             </h2>
 
             <div class="education-item">
               <h3 class="degree">
-                Master of Science in Information Technology (MSC IT)
+                 B.Tech in Information Technology
               </h3>
-              <p class="school">UKA TARSADIA UNIVERSITY</p>
-              <p class="education-years">Sep 2012 - Oct 2017</p>
+              <p class="school">UKA TARSADIA UNIVERSITY (Maliba Campus, Bardoli) </p>
+              <p class="education-years">July 2012 - June 2016</p>
             </div>
           </div>
 
           <div class="section">
-            <h2 class="section-header">
-              <i class="fa-solid fa-hashtag"></i> &nbsp; Social
+            <h2 class="section-header" style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+              <TagIcon/> Social
             </h2>
 
             <div class="contact-info" style={{ flexDirection: "row" }}>
-              <div class="contact-item">
+              <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
                 <span>
-                  <i class="fa-brands fa-github"></i>
+                  <GitHubIcon /> 
                 </span>
                 <span>
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/vickymoditech/"
+                    href="https://github.com/sajid-ansari-65"
                   >
-                    github.com/vickymoditech
+                    github.com/sajid-ansari-65
                   </a>
                 </span>
               </div>
-              <div class="contact-item">
+              <div class="contact-item" style={{ display: "flex", alignItems: "self-start" }}>
                 <span>
-                  <i class="fa-brands fa-linkedin"></i>
+                  <LinkedInIcon />
                 </span>
                 <span>
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/vicky-modi-a01885186"
+                    href="https://www.linkedin.com/in/iamsajidansari/"
                   >
-                    vickymodi@linkedin
+                    iamsajidansari@linkedin
                   </a>
                 </span>
               </div>

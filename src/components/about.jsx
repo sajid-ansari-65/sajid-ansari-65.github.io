@@ -28,6 +28,7 @@ function About() {
               </Stack>
               <Stack direction={'row'} alignItems={'center'} spacing={1}>
                 <Button variant="contained" color="primary"><Link style={{ textDecoration: 'none', color: 'white'}} to={`/projects`}> My Projects </Link> </Button>
+                <Button variant="contained" color="primary"><Link target="_blank" style={{ textDecoration: 'none', color: 'white'}} to={`/resume`}> My Resume </Link> </Button>
               </Stack>
               <Stack alignItems={'left'} spacing={1}>
                 <Typography variant="h1" fontSize={40} fontWeight={700} >Mohammad Sajid Ansari</Typography>
