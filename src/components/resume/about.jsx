@@ -72,10 +72,11 @@ const About = () => {
         </h2>
         <p>
           I'm a Senior Web Developer near a decade of experience building scalable, high-performance web and mobile applications.
-          I am proficient in a wide range of technologies, including WordPress, Node.js, React, Next.js, and AWS. I have a strong background in both front-end and back-end development, with expertise in JavaScript, TypeScript, HTML, CSS, and various frameworks.
+          I am proficient in a wide range of technologies, including WordPress, Node.js, React, Next.js.
+          I have a strong background in both front-end and back-end development, with expertise in JavaScript, TypeScript, HTML, CSS, and various frameworks.
           I have a solid understanding of software development principles and best practices, including Agile methodologies, version control (Git), and code reviews.
-          <br />          
-          On the back-end, I have worked with Node.js and Express to create RESTful APIs and microservices.
+          <br />
+          <br />
           I have a strong understanding of database design and management, including SQL and NoSQL databases.
           I have a strong focus on performance optimization, security, and scalability, ensuring that applications are built to handle high traffic and provide a seamless user experience.
           <br />
